@@ -1,5 +1,3 @@
-require 'active_support/concern'
-require 'active_support/core_ext/module/attribute_accessors'
 require_relative 'acts_as_positionable/version'
 
 module ActsAsPositionable
