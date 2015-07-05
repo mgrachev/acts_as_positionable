@@ -11,7 +11,6 @@ module ActsAsPositionable
         return if persisted?
         return if #{attribute_name}?
 
-
         if self.class.any?
           self.#{attribute_name} = self.class.ordered.last.#{attribute_name}
         end
